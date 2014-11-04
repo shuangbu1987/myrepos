@@ -1,0 +1,11 @@
+package com.abu.threadlocal;
+
+import java.text.SimpleDateFormat;
+
+public class ThreadLocalExample {
+	
+	private static final ThreadLocal<SimpleDateFormatt> formatter = new ThreadLocal<SimpleDateFormat>(){
+		
+	}
+
+}

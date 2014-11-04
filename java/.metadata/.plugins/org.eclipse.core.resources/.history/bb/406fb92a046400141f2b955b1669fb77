@@ -1,0 +1,9 @@
+package com.abu.threadlocal;
+
+public class ThreadLocalExample {
+	
+	private static final ThreadLocal<SimpleDateFormat> formatter = new ThreadLocal<SimpleDateFormat>(){
+		
+	}
+
+}
